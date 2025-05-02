@@ -1,3 +1,5 @@
+using IoTMonitoringSystem.Domain.Interfaces;
+using IoTMonitoringSystem.Infrastructure.Queues;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<ITelemetryQueue, TelemetryQueue>();
 
 Log.Logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)

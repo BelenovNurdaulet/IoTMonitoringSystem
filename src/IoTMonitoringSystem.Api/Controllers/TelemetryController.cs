@@ -1,20 +1,36 @@
 ﻿using IoTMonitoringSystem.Api.Models;
+using IoTMonitoringSystem.Domain.Interfaces;
+using IoTMonitoringSystem.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
-
-namespace IoTMonitoringSystem.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
 public class TelemetryController : ControllerBase
+
 {
+    private readonly ITelemetryQueue _queue;
+
+    public TelemetryController(ITelemetryQueue queue)
+    {
+        _queue = queue;
+    }
+
     [HttpPost]
     public IActionResult ReceiveTelemetry([FromBody] TelemetryDto telemetry)
     {
-        Log.Information("Получены данные от устройства {DeviceId}: температура={Temp}, влажность={Humidity} в {Time}",
-            telemetry.DeviceId, telemetry.Temperature, telemetry.Humidity, telemetry.Timestamp);
+        var message = new TelemetryMessage
+        {
+            DeviceId = telemetry.DeviceId,
+            Timestamp = telemetry.Timestamp,
+            Temperature = telemetry.Temperature,
+            Humidity = telemetry.Humidity
+        };
 
-    
-        return Ok(new { message = "Telemetry received" });
+        _queue.Enqueue(message);
+
+        Log.Information("Данные поставлены в очередь от {DeviceId}", telemetry.DeviceId);
+
+        return Ok(new { message = "Telemetry enqueued" });
     }
 }
