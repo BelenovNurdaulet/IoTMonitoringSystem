@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{189DEB9D-AFFC-4A0D-B00D-FCAF11F3AE8F}"
 	ProjectSection(SolutionItems) = preProject
 		docker\docker-compose.yml = docker\docker-compose.yml
+		docker\init.sql = docker\init.sql
 	EndProjectSection
 EndProject
 Global

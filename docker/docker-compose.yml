@@ -12,6 +12,7 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
   api:
     build:
       context: ../src
@@ -31,6 +32,6 @@ services:
       - SEQ_API_KEY=localdev
     ports:
       - "5341:80"    # Web UI доступен на localhost:5341
-
 volumes:
-  pgdata:
+  pgdata: {}
+
