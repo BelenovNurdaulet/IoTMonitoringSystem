@@ -1,0 +1,15 @@
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\bin\Debug\net9.0\IoTMonitoringSystem.Application.deps.json
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\bin\Debug\net9.0\IoTMonitoringSystem.Application.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\bin\Debug\net9.0\IoTMonitoringSystem.Application.pdb
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\bin\Debug\net9.0\IoTMonitoringSystem.Domain.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\bin\Debug\net9.0\IoTMonitoringSystem.Domain.pdb
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.csproj.AssemblyReference.cache
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.AssemblyInfoInputs.cache
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.AssemblyInfo.cs
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonit.C2A05831.Up2Date
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\refint\IoTMonitoringSystem.Application.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\IoTMonitoringSystem.Application.pdb
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Application\obj\Debug\net9.0\ref\IoTMonitoringSystem.Application.dll

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31C8EF1A-CB29-4592-9E19-EB09265ACF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTMonitoringSystem.Api", "src\IoTMonitoringSystem.Api\IoTMonitoringSystem.Api.csproj", "{67D39B5B-F247-4139-81C4-3EC656D88754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTMonitoringSystem.Application", "src\IoTMonitoringSystem.Application\IoTMonitoringSystem.Application.csproj", "{6B7DCBBD-9C71-4124-84E5-57102C691EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTMonitoringSystem.Domain", "src\IoTMonitoringSystem.Domain\IoTMonitoringSystem.Domain.csproj", "{208FB08C-975E-4E76-BA9A-0D09E8EBB81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTMonitoringSystem.Infrastructure", "src\IoTMonitoringSystem.Infrastructure\IoTMonitoringSystem.Infrastructure.csproj", "{D2750522-09CE-4826-A661-3BBCC2E0393B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{189DEB9D-AFFC-4A0D-B00D-FCAF11F3AE8F}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker-compose.yml = docker\docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67D39B5B-F247-4139-81C4-3EC656D88754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D39B5B-F247-4139-81C4-3EC656D88754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D39B5B-F247-4139-81C4-3EC656D88754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D39B5B-F247-4139-81C4-3EC656D88754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7DCBBD-9C71-4124-84E5-57102C691EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7DCBBD-9C71-4124-84E5-57102C691EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7DCBBD-9C71-4124-84E5-57102C691EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7DCBBD-9C71-4124-84E5-57102C691EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208FB08C-975E-4E76-BA9A-0D09E8EBB81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208FB08C-975E-4E76-BA9A-0D09E8EBB81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208FB08C-975E-4E76-BA9A-0D09E8EBB81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208FB08C-975E-4E76-BA9A-0D09E8EBB81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2750522-09CE-4826-A661-3BBCC2E0393B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2750522-09CE-4826-A661-3BBCC2E0393B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2750522-09CE-4826-A661-3BBCC2E0393B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2750522-09CE-4826-A661-3BBCC2E0393B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67D39B5B-F247-4139-81C4-3EC656D88754} = {31C8EF1A-CB29-4592-9E19-EB09265ACF43}
+		{6B7DCBBD-9C71-4124-84E5-57102C691EAF} = {31C8EF1A-CB29-4592-9E19-EB09265ACF43}
+		{208FB08C-975E-4E76-BA9A-0D09E8EBB81A} = {31C8EF1A-CB29-4592-9E19-EB09265ACF43}
+		{D2750522-09CE-4826-A661-3BBCC2E0393B} = {31C8EF1A-CB29-4592-9E19-EB09265ACF43}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: iot_postgres
+    environment:
+      POSTGRES_USER: iotuser
+      POSTGRES_PASSWORD: iotpass
+      POSTGRES_DB: iotdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  api:
+    build:
+      context: ../src
+      dockerfile: IoTMonitoringSystem.Api/Dockerfile
+    container_name: iot_api
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+      - seq
+
+  seq:
+    image: datalust/seq:latest
+    container_name: iot_seq
+    environment:
+      - ACCEPT_EULA=Y
+      - SEQ_API_KEY=localdev
+    ports:
+      - "5341:80"    # Web UI доступен на localhost:5341
+
+volumes:
+  pgdata:

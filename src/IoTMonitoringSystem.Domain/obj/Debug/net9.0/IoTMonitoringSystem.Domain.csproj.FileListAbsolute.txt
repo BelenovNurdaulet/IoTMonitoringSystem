@@ -1,0 +1,11 @@
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\bin\Debug\net9.0\IoTMonitoringSystem.Domain.deps.json
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\bin\Debug\net9.0\IoTMonitoringSystem.Domain.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\bin\Debug\net9.0\IoTMonitoringSystem.Domain.pdb
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.AssemblyInfo.cs
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\refint\IoTMonitoringSystem.Domain.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.pdb
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\ref\IoTMonitoringSystem.Domain.dll

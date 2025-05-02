@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "eC7qf+4LZpZ3I0smt93wsGCPNNiGHmyChL0vWVKg82w=",
+  "Source": "IoTMonitoringSystem.Api",
+  "BasePath": "_content/IoTMonitoringSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
