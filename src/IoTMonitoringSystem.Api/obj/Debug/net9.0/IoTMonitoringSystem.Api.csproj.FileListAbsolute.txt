@@ -41,3 +41,15 @@ C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\obj
 C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\obj\Debug\net9.0\IoTMonitoringSystem.Api.pdb
 C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\obj\Debug\net9.0\IoTMonitoringSystem.Api.genruntimeconfig.cache
 C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\obj\Debug\net9.0\ref\IoTMonitoringSystem.Api.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\bin\Debug\net9.0\Serilog.Sinks.Seq.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Api\obj\Debug\net9.0\IoTMonitoringSystem.Api.sourcelink.json

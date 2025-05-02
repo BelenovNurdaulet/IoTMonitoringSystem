@@ -9,3 +9,4 @@ C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\
 C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\refint\IoTMonitoringSystem.Domain.dll
 C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.pdb
 C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\ref\IoTMonitoringSystem.Domain.dll
+C:\Users\belen\RiderProjects\IoTMonitoringSystem\src\IoTMonitoringSystem.Domain\obj\Debug\net9.0\IoTMonitoringSystem.Domain.sourcelink.json
