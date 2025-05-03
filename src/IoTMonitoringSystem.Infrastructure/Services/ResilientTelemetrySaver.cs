@@ -21,14 +21,25 @@ public class ResilientTelemetrySaver : BackgroundService
         try
         {
             await _repository.SaveAsync(message, cancellationToken);
+            Log.Information("Данные успешно сохранены в БД. DeviceId: {DeviceId}", message.DeviceId);
         }
         catch (Exception ex)
         {
-            Log.Error(ex, "Ошибка при сохранении в БД. DeviceId: {DeviceId}, Temp: {Temp}, Humidity: {Humidity}",
-                message.DeviceId, message.Temperature, message.Humidity);
-            throw;
-        }
+            message.RetryCount++;
 
+            if (message.RetryCount <= 5)
+            {
+                Log.Warning(ex, "Ошибка при сохранении в БД. DeviceId: {DeviceId}, попытка {Retry}",
+                    message.DeviceId, message.RetryCount);
+                _retryQueue.Enqueue(message); 
+            }
+            else
+            {
+                Log.Error(ex, "Превышено число попыток сохранения. DeviceId: {DeviceId}, данные утеряны",
+                    message.DeviceId);
+  
+            }
+        }
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
